@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clock Using JavaScript</title>
+  <style>
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  background-color: rgb(8, 170, 16);
+  font-family: Arial, sans-serif;
+}
+
+.clock-container {
+  
+  text-align: center;
+  background: rgb(203, 14, 209);
+  padding: 30px;
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-shadow: 0 0 55px rgba(38, 177, 232, 0.974);
+}
+
+#clock {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0 55px rgba(82, 116, 3, 0.923);
+}
+
+ </style>
+</head>
+<body>
+      
+  <div class="clock-container">
+    <img src="https://tse2.mm.bing.net/th?id=OIP.QxGhl5_PtB12CY73sHX8sgHaFp&pid=Api&P=0&h=180">
+      
+  <h1 id="clock">00:00:00</h1>
+
+    
+  
+    <button onclick="startClock()">Start</button>
+
+    <button onclick="stopClock()">Stop</button>
+  </div>
+
+  <script src="clock.js"></script>
+</body>
+</html>
